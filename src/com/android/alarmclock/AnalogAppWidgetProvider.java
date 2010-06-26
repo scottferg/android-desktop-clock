@@ -17,7 +17,6 @@
 package com.android.alarmclock;
 
 import com.android.deskclock.AlarmClock;
-import com.android.deskclock.R;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -25,6 +24,8 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.widget.RemoteViews;
+
+import com.ferg.deskclock.R;
 
 /**
  * Simple widget to show analog clock.

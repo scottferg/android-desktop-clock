@@ -41,6 +41,8 @@ import android.widget.ListView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.ferg.deskclock.R;
+
 /**
  * Manages each alarm
  */

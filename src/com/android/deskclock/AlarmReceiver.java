@@ -30,6 +30,8 @@ import android.os.Parcel;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import com.ferg.deskclock.R;
+
 /**
  * Glue class: connects AlarmAlert IntentReceiver to AlarmAlert
  * activity.  Passes through Alarm ID.

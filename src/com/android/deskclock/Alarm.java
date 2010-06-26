@@ -28,6 +28,8 @@ import android.text.format.DateFormat;
 import java.text.DateFormatSymbols;
 import java.util.Calendar;
 
+import com.ferg.deskclock.R;
+
 public final class Alarm implements Parcelable {
 
     //////////////////////////////

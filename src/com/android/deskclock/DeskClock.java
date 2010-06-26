@@ -88,6 +88,8 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Random;
 
+import com.ferg.deskclock.R;
+
 /**
  * DeskClock clock view for desk docks.
  */

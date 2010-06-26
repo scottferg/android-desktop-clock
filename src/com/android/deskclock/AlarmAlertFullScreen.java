@@ -40,6 +40,8 @@ import android.widget.TextView;
 
 import java.util.Calendar;
 
+import com.ferg.deskclock.R;
+
 /**
  * Alarm Clock alarm alert: pops visible indicator and plays alarm
  * tone. This activity is the full screen version which shows over the lock

@@ -49,6 +49,8 @@ import android.widget.TextView;
 
 import java.util.Calendar;
 
+import com.ferg.deskclock.R;
+
 /**
  * AlarmClock application.
  */

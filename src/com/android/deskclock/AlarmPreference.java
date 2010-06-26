@@ -23,6 +23,8 @@ import android.net.Uri;
 import android.preference.RingtonePreference;
 import android.util.AttributeSet;
 
+import com.ferg.deskclock.R;
+
 /**
  * The RingtonePreference does not have a way to get/set the current ringtone so
  * we override onSaveRingtone and onRestoreRingtone to get the same behavior.

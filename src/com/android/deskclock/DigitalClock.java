@@ -34,6 +34,8 @@ import android.widget.TextView;
 import java.text.DateFormatSymbols;
 import java.util.Calendar;
 
+import com.ferg.deskclock.R;
+
 /**
  * Displays the time
  */

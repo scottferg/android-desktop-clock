@@ -25,6 +25,8 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
 
+import com.ferg.deskclock.R;
+
 /**
  * Settings for the Alarm Clock.
  */
