@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.deskclock;
+package com.ferg.deskclock;
 
 import android.app.Activity;
 import android.app.AlertDialog;

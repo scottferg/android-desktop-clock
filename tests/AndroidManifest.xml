@@ -15,14 +15,14 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.deskclock.tests">
+    package="com.ferg.deskclock.tests">
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
-    <instrumentation android:name="com.android.deskclock.DeskClockLaunchPerformance"
-        android:targetPackage="com.android.deskclock"
+    <instrumentation android:name="com.ferg.deskclock.DeskClockLaunchPerformance"
+        android:targetPackage="com.ferg.deskclock"
         android:label="DeskClock Launch Performance">
     </instrumentation>
 

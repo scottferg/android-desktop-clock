@@ -71,7 +71,7 @@
             android:src="@drawable/ic_clock_strip_desk_clock"
             android:contentDescription="@string/desk_clock_button_description"/>
 
-        <com.android.deskclock.DigitalClock
+        <com.ferg.deskclock.DigitalClock
             style="@style/ButtonStripRight"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -97,7 +97,7 @@
 
             </LinearLayout>
 
-      </com.android.deskclock.DigitalClock>
+      </com.ferg.deskclock.DigitalClock>
 
     </LinearLayout>
 

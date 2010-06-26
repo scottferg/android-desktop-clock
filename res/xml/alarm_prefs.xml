@@ -22,13 +22,14 @@
     <Preference android:key="time"
         android:persistent="false"
         android:title="@string/time"/>
-    <com.android.deskclock.RepeatPreference
+    <com.ferg.deskclock.RepeatPreference
         android:persistent="false"
         android:key="setRepeat"
         android:title="@string/alarm_repeat" />
-    <com.android.deskclock.AlarmPreference
+    <com.ferg.deskclock.AlarmPreference
         android:key="alarm"
         android:title="@string/alert"
+        android:summary="@string/alert_summary"
         android:ringtoneType="alarm"
         android:persistent="false"
         android:showDefault="false"

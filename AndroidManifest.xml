@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.android.deskclock">
+        package="com.ferg.deskclock">
 
-    <original-package android:name="com.android.alarmclock" />
-    <original-package android:name="com.android.deskclock" />
+    <original-package android:name="com.ferg.alarmclock" />
+    <original-package android:name="com.ferg.deskclock" />
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
@@ -15,9 +15,9 @@
     <application android:label="@string/app_label"
                  android:icon="@drawable/ic_launcher_alarmclock">
 
-        <provider android:name="AlarmProvider" android:authorities="com.android.deskclock" />
+        <provider android:name="AlarmProvider" android:authorities="com.ferg.deskclock" />
 
-        <activity android:name="DeskClock"
+        <activity android:name="com.ferg.deskclock.DeskClock"
                 android:label="@string/app_label"
                 android:theme="@android:style/Theme.Wallpaper.NoTitleBar"
                 android:icon="@drawable/ic_launcher_alarmclock"
@@ -43,8 +43,8 @@
                 android:configChanges="orientation|keyboardHidden|keyboard|navigation"
                 android:exported="true" />
 
-        <activity-alias android:name="com.android.alarmclock.AlarmClock"
-                android:targetActivity="com.android.deskclock.AlarmClock"
+        <activity-alias android:name="com.ferg.alarmclock.AlarmClock"
+                android:targetActivity="com.ferg.deskclock.AlarmClock"
                 android:exported="true" />
 
         <activity android:name="SettingsActivity"
@@ -79,7 +79,7 @@
 
         <receiver android:name="AlarmReceiver">
             <intent-filter>
-               <action android:name="com.android.deskclock.ALARM_ALERT" />
+               <action android:name="com.ferg.deskclock.ALARM_ALERT" />
                <action android:name="alarm_killed" />
                <action android:name="cancel_snooze" />
             </intent-filter>
@@ -93,7 +93,7 @@
              causes the AlarmAlert activity to pause. -->
         <service android:name="AlarmKlaxon">
             <intent-filter>
-                <action android:name="com.android.deskclock.ALARM_ALERT" />
+                <action android:name="com.ferg.deskclock.ALARM_ALERT" />
             </intent-filter>
         </service>
 
@@ -106,12 +106,12 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name="com.android.alarmclock.AnalogAppWidgetProvider" android:label="@string/analog_gadget"
+        <receiver android:name="com.ferg.alarmclock.AnalogAppWidgetProvider" android:label="@string/analog_gadget"
         	android:icon="@drawable/ic_widget_analog_clock">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
-            <meta-data android:name="android.appwidget.oldName" android:value="com.android.deskclock.AnalogAppWidgetProvider" />
+            <meta-data android:name="android.appwidget.oldName" android:value="com.ferg.deskclock.AnalogAppWidgetProvider" />
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/analog_appwidget" />
         </receiver>
     </application>

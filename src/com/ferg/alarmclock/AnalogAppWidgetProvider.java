@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.alarmclock;
+package com.ferg.alarmclock;
 
-import com.android.deskclock.AlarmClock;
-import com.android.deskclock.R;
+import com.ferg.deskclock.AlarmClock;
+import com.ferg.deskclock.R;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.deskclock;
+package com.ferg.deskclock;
 
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -97,13 +97,13 @@ public class DeskClock extends Activity {
     private static final String LOG_TAG = "DeskClock";
 
     // Alarm action for midnight (so we can update the date display).
-    private static final String ACTION_MIDNIGHT = "com.android.deskclock.MIDNIGHT";
+    private static final String ACTION_MIDNIGHT = "com.ferg.deskclock.MIDNIGHT";
 
     // Interval between forced polls of the weather widget.
     private final long QUERY_WEATHER_DELAY = 60 * 60 * 1000; // 1 hr
 
     // Intent to broadcast for dock settings.
-    private static final String DOCK_SETTINGS_ACTION = "com.android.settings.DOCK_SETTINGS";
+    private static final String DOCK_SETTINGS_ACTION = "com.ferg.settings.DOCK_SETTINGS";
 
     // Delay before engaging the burn-in protection mode (green-on-black).
     private final long SCREEN_SAVER_TIMEOUT = 5 * 60 * 1000; // 5 min
